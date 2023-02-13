@@ -23,16 +23,19 @@ module.exports = {
       address: {
         type: Sequelize.STRING
       },
+      phoneNumber: {
+        type: Sequelize.STRING
+      },
       gender: {
         type: Sequelize.BOOLEAN
       },
-      roleid: {
+      image: {
         type: Sequelize.STRING
       },
-      typeRole: {
+      roleId: {
         type: Sequelize.STRING
       },
-      keyRole: {
+      positionId: {
         type: Sequelize.STRING
       },
       createdAt: {
